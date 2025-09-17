@@ -3,8 +3,7 @@
     {
       "target_name": "sdl",
       "sources": [
-        "src/sdl3.cpp",
-        "src/audio.cpp"
+        "src/sdl3.cpp"
       ],
       "include_dirs": [
         "<!@(node -p \"require('node-addon-api').include\")",
